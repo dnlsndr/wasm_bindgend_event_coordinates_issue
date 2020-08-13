@@ -18,5 +18,5 @@ pub fn get_event_coordinates(event: web_sys::PointerEvent) {
     let sx = event.screen_x();
     let x = event.x();
     let ox = event.offset_x();
-    console_log!("{}, {}, {}, {}", cx, sx, x, ox);
+    console_log!("Log from rust: {}, {}, {}, {}", cx, sx, x, ox);
 }
